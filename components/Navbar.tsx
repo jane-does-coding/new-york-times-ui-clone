@@ -2,14 +2,16 @@ import React from "react";
 
 const Navbar = () => {
 	return (
-		<div className="flex flex-col bg-neutral-300 items-center justify-center py-8">
+		<div className="flex flex-col bg-neutral-300 items-center justify-center py-8 z-[999]">
 			<div className="flex text-neutral-800 font-light gap-8 text-[0.9rem]">
 				<a href="">Some Link</a>
 				<a href="">Some Link</a>
 				<a href="">Some Link</a>
 			</div>
-			<h1 className="text-[4rem] text-neutral-950">NEW YORK TIMES</h1>
-			<div className="flex text-neutral-950 gap-8 text-[0.9rem]">
+			<h1 className="text-[6rem] my-0 py-0 text-neutral-950 jacquard">
+				New York Times
+			</h1>
+			<div className="flex text-neutral-950 gap-8 text-[0.9rem] z-[99]">
 				<div className="relative group">
 					<a href="" className="hover:text-neutral-600">
 						Some Link
