@@ -312,22 +312,40 @@ const Sudoku = () => {
 							</div>
 						</div>
 					</div>
-					<div className="w-[20rem] h-[20rem] bg-neutral-100 flex flex-col">
+					<div className="w-[15rem] h-[15rem] bg-neutral-100 flex flex-col">
 						{/* Row */}
 						<div className="flex h-1/3">
-							<div className="w-full h-full border-[1px] border-neutral-400"></div>
-							<div className="w-full h-full border-[1px] border-neutral-400"></div>
-							<div className="w-full h-full border-[1px] border-neutral-400"></div>
+							<div className="w-full h-full border-[1px] border-neutral-400 flex items-center justify-center text-neutral-800">
+								1
+							</div>
+							<div className="w-full h-full border-[1px] border-neutral-400 flex items-center justify-center text-neutral-800">
+								2
+							</div>
+							<div className="w-full h-full border-[1px] border-neutral-400 flex items-center justify-center text-neutral-800">
+								3
+							</div>
 						</div>
 						<div className="flex h-1/3">
-							<div className="w-full h-full border-[1px] border-neutral-400"></div>
-							<div className="w-full h-full border-[1px] border-neutral-400"></div>
-							<div className="w-full h-full border-[1px] border-neutral-400"></div>
+							<div className="w-full h-full border-[1px] border-neutral-400 flex items-center justify-center text-neutral-800">
+								4
+							</div>
+							<div className="w-full h-full border-[1px] border-neutral-400 flex items-center justify-center text-neutral-800">
+								5
+							</div>
+							<div className="w-full h-full border-[1px] border-neutral-400 flex items-center justify-center text-neutral-800">
+								6
+							</div>
 						</div>
 						<div className="flex h-1/3">
-							<div className="w-full h-full border-[1px] border-neutral-400"></div>
-							<div className="w-full h-full border-[1px] border-neutral-400"></div>
-							<div className="w-full h-full border-[1px] border-neutral-400"></div>
+							<div className="w-full h-full border-[1px] border-neutral-400 flex items-center justify-center text-neutral-800">
+								7
+							</div>
+							<div className="w-full h-full border-[1px] border-neutral-400 flex items-center justify-center text-neutral-800">
+								8
+							</div>
+							<div className="w-full h-full border-[1px] border-neutral-400 flex items-center justify-center text-neutral-800">
+								9
+							</div>
 						</div>
 					</div>
 				</div>
