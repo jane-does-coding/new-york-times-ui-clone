@@ -3,38 +3,6 @@ import { IoBulbOutline } from "react-icons/io5";
 import { LuBird } from "react-icons/lu";
 
 const SpellingBee = () => {
-	const correct_letters = ["S", "M", "I", "L", "E"];
-	const wrong_letters = ["A", "B", "C", "D", "H", "Z", "Y"];
-	const maybe_letters = ["O", "P", "Q"];
-	const alphabet = [
-		"A",
-		"B",
-		"C",
-		"D",
-		"E",
-		"F",
-		"G",
-		"H",
-		"I",
-		"J",
-		"K",
-		"L",
-		"M",
-		"N",
-		"O",
-		"P",
-		"Q",
-		"R",
-		"S",
-		"T",
-		"U",
-		"V",
-		"W",
-		"X",
-		"Y",
-		"Z",
-	];
-
 	return (
 		<div className="min-h-[80vh] py-[7vh] pb-[10vh] bg-neutral-200 w-full flex items-center justify-center">
 			<div className="w-fit max-w-[60vw] flex flex-col items-center justify-center relative">
@@ -79,7 +47,20 @@ const SpellingBee = () => {
 							<LuBird />
 						</div>
 					</div>
-					<div className="bg-white w-full h-[45vh] rounded-md"></div>
+					<div className="bg-white w-full h-[45vh] rounded-md text-black py-6 px-12">
+						<h2 className="text-[1.35rem] mx-auto text-center mb-6">Words</h2>
+						<div className="flex gap-20 items-center justify-center">
+							<div className="flex flex-wrap gap-6">
+								<p className="text-neutral-500 text-[1rem]">Slime</p>
+								<p className="text-neutral-500 text-[1rem]">Potatoes</p>
+								<p className="text-neutral-500 text-[1rem]">Bee</p>
+								<p className="text-neutral-500 text-[1rem]">Some word</p>
+								<p className="text-neutral-500 text-[1rem]">Some word</p>
+								<p className="text-neutral-500 text-[1rem]">Some word</p>
+								<p className="text-neutral-500 text-[1rem]">Some word</p>
+							</div>
+						</div>
+					</div>
 				</div>
 				{/* Text Field */}
 				<div className="flex max-w-[40vw] flex-wrap items-end justify-center my-8 gap-2">
