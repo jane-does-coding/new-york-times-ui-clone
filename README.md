@@ -6,4 +6,4 @@
 
 ## Demo
 
-[NewYorkTimes - Live Demo]()
+[NewYorkTimes - Live Demo](https://new-york-times-ui-clone.vercel.app/)
