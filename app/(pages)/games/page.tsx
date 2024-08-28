@@ -1,7 +1,12 @@
+import Games from "@/components/Games/Games";
 import React from "react";
 
 const page = () => {
-	return <div></div>;
+	return (
+		<div>
+			<Games />
+		</div>
+	);
 };
 
 export default page;
