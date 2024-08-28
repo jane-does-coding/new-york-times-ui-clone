@@ -10,41 +10,41 @@ const SpellingBee = () => {
 				<div className="flex w-[47vw] gap-20">
 					<div className="flex flex-col items-center justify-center gap-1">
 						{/* ROW */}
+						<div className="mb-2">
+							<LuBird size={35} />
+						</div>
 						<div className="flex gap-1">
-							<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-neutral-500/85 text-[2rem] rounded-md">
+							<div className="w-[4rem] h-[4rem] flex items-center text-white justify-center bg-neutral-500/85 text-[2rem] rounded-md">
 								B
 							</div>
-							<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-neutral-500/85 text-[2rem] rounded-md">
+							<div className="w-[4rem] h-[4rem] flex items-center text-white justify-center bg-neutral-500/85 text-[2rem] rounded-md">
 								O
 							</div>
-							<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-neutral-500/85 text-[2rem] rounded-md">
+							<div className="w-[4rem] h-[4rem] flex items-center text-white justify-center bg-neutral-500/85 text-[2rem] rounded-md">
 								R
 							</div>
 						</div>
 						<div className="flex gap-1">
-							<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-neutral-500/85 text-[2rem] rounded-md">
+							<div className="w-[4rem] h-[4rem] flex items-center text-white justify-center bg-neutral-500/85 text-[2rem] rounded-md">
 								B
 							</div>
-							<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-yellow-500 text-[2rem] rounded-md">
+							<div className="w-[4rem] h-[4rem] flex items-center text-white justify-center bg-yellow-500 text-[2rem] rounded-md">
 								O
 							</div>
-							<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-neutral-500/85 text-[2rem] rounded-md">
+							<div className="w-[4rem] h-[4rem] flex items-center text-white justify-center bg-neutral-500/85 text-[2rem] rounded-md">
 								R
 							</div>
 						</div>
 						<div className="flex gap-1">
-							<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-neutral-500/85 text-[2rem] rounded-md">
+							<div className="w-[4rem] h-[4rem] flex items-center text-white justify-center bg-neutral-500/85 text-[2rem] rounded-md">
 								B
 							</div>
-							<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-neutral-500/85 text-[2rem] rounded-md">
+							<div className="w-[4rem] h-[4rem] flex items-center text-white justify-center bg-neutral-500/85 text-[2rem] rounded-md">
 								O
 							</div>
-							<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-neutral-500/85 text-[2rem] rounded-md">
+							<div className="w-[4rem] h-[4rem] flex items-center text-white justify-center bg-neutral-500/85 text-[2rem] rounded-md">
 								R
 							</div>
-						</div>
-						<div className="">
-							<LuBird />
 						</div>
 					</div>
 					<div className="bg-white w-full h-[45vh] rounded-md text-black py-6 px-12">

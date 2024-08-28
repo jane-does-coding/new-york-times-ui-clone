@@ -41,86 +41,86 @@ const Wordle = () => {
 				<div className="flex flex-col items-center justify-center gap-1">
 					{/* ROW */}
 					<div className="flex gap-1">
-						<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-neutral-500/85 text-[2rem] rounded-md">
+						<div className="w-[4rem] h-[4rem] flex items-center justify-center text-white bg-neutral-500/85 text-[2rem] rounded-md">
 							B
 						</div>
-						<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-neutral-500/85 text-[2rem] rounded-md">
+						<div className="w-[4rem] h-[4rem] flex items-center justify-center text-white bg-neutral-500/85 text-[2rem] rounded-md">
 							O
 						</div>
-						<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-neutral-500/85 text-[2rem] rounded-md">
+						<div className="w-[4rem] h-[4rem] flex items-center justify-center text-white bg-neutral-500/85 text-[2rem] rounded-md">
 							R
 						</div>
-						<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-yellow-500 text-[2rem] rounded-md">
+						<div className="w-[4rem] h-[4rem] flex items-center justify-center text-white bg-yellow-500 text-[2rem] rounded-md">
 							E
 						</div>
-						<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-neutral-500/85 text-[2rem] rounded-md">
+						<div className="w-[4rem] h-[4rem] flex items-center justify-center text-white bg-neutral-500/85 text-[2rem] rounded-md">
 							D
 						</div>
 					</div>
 					<div className="flex gap-1">
-						<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-neutral-500/85 text-[2rem] rounded-md">
+						<div className="w-[4rem] h-[4rem] flex items-center justify-center text-white bg-neutral-500/85 text-[2rem] rounded-md">
 							F
 						</div>
-						<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-yellow-500 text-[2rem] rounded-md">
+						<div className="w-[4rem] h-[4rem] flex items-center justify-center text-white bg-yellow-500 text-[2rem] rounded-md">
 							L
 						</div>
-						<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-neutral-500/85 text-[2rem] rounded-md">
+						<div className="w-[4rem] h-[4rem] flex items-center justify-center text-white bg-neutral-500/85 text-[2rem] rounded-md">
 							A
 						</div>
-						<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-yellow-500 text-[2rem] rounded-md">
+						<div className="w-[4rem] h-[4rem] flex items-center justify-center text-white bg-yellow-500 text-[2rem] rounded-md">
 							M
 						</div>
-						<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-green-600 text-[2rem] rounded-md">
+						<div className="w-[4rem] h-[4rem] flex items-center justify-center text-white bg-green-600 text-[2rem] rounded-md">
 							E
 						</div>
 					</div>
 					<div className="flex gap-1">
-						<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-neutral-500/85 text-[2rem] rounded-md">
+						<div className="w-[4rem] h-[4rem] flex items-center justify-center text-white bg-neutral-500/85 text-[2rem] rounded-md">
 							B
 						</div>
-						<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-neutral-500/85 text-[2rem] rounded-md">
+						<div className="w-[4rem] h-[4rem] flex items-center justify-center text-white bg-neutral-500/85 text-[2rem] rounded-md">
 							L
 						</div>
-						<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-green-600 text-[2rem] rounded-md">
+						<div className="w-[4rem] h-[4rem] flex items-center justify-center text-white bg-green-600 text-[2rem] rounded-md">
 							I
 						</div>
-						<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-yellow-500 text-[2rem] rounded-md">
+						<div className="w-[4rem] h-[4rem] flex items-center justify-center text-white bg-yellow-500 text-[2rem] rounded-md">
 							M
 						</div>
-						<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-neutral-500/85 text-[2rem] rounded-md">
+						<div className="w-[4rem] h-[4rem] flex items-center justify-center text-white bg-neutral-500/85 text-[2rem] rounded-md">
 							Y
 						</div>
 					</div>
 					<div className="flex gap-1">
-						<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-green-600 text-[2rem] rounded-md">
+						<div className="w-[4rem] h-[4rem] flex items-center justify-center text-white bg-green-600 text-[2rem] rounded-md">
 							S
 						</div>
-						<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-green-600 text-[2rem] rounded-md">
+						<div className="w-[4rem] h-[4rem] flex items-center justify-center text-white bg-green-600 text-[2rem] rounded-md">
 							M
 						</div>
-						<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-green-600 text-[2rem] rounded-md">
+						<div className="w-[4rem] h-[4rem] flex items-center justify-center text-white bg-green-600 text-[2rem] rounded-md">
 							I
 						</div>
-						<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-green-600 text-[2rem] rounded-md">
+						<div className="w-[4rem] h-[4rem] flex items-center justify-center text-white bg-green-600 text-[2rem] rounded-md">
 							L
 						</div>
-						<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-green-600 text-[2rem] rounded-md">
+						<div className="w-[4rem] h-[4rem] flex items-center justify-center text-white bg-green-600 text-[2rem] rounded-md">
 							E
 						</div>
 					</div>
 					<div className="flex gap-1">
-						<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-neutral-500/10 border-2 border-neutral-500 text-[2rem] rounded-md"></div>
-						<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-neutral-500/10 border-2 border-neutral-500 text-[2rem] rounded-md"></div>
-						<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-neutral-500/10 border-2 border-neutral-500 text-[2rem] rounded-md"></div>
-						<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-neutral-500/10 border-2 border-neutral-500 text-[2rem] rounded-md"></div>
-						<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-neutral-500/10 border-2 border-neutral-500 text-[2rem] rounded-md"></div>
+						<div className="w-[4rem] h-[4rem] flex items-center justify-center text-white bg-neutral-500/10 border-2 border-neutral-500 text-[2rem] rounded-md"></div>
+						<div className="w-[4rem] h-[4rem] flex items-center justify-center text-white bg-neutral-500/10 border-2 border-neutral-500 text-[2rem] rounded-md"></div>
+						<div className="w-[4rem] h-[4rem] flex items-center justify-center text-white bg-neutral-500/10 border-2 border-neutral-500 text-[2rem] rounded-md"></div>
+						<div className="w-[4rem] h-[4rem] flex items-center justify-center text-white bg-neutral-500/10 border-2 border-neutral-500 text-[2rem] rounded-md"></div>
+						<div className="w-[4rem] h-[4rem] flex items-center justify-center text-white bg-neutral-500/10 border-2 border-neutral-500 text-[2rem] rounded-md"></div>
 					</div>
 					<div className="flex gap-1">
-						<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-neutral-500/10 border-2 border-neutral-500 text-[2rem] rounded-md"></div>
-						<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-neutral-500/10 border-2 border-neutral-500 text-[2rem] rounded-md"></div>
-						<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-neutral-500/10 border-2 border-neutral-500 text-[2rem] rounded-md"></div>
-						<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-neutral-500/10 border-2 border-neutral-500 text-[2rem] rounded-md"></div>
-						<div className="w-[4rem] h-[4rem] flex items-center justify-center bg-neutral-500/10 border-2 border-neutral-500 text-[2rem] rounded-md"></div>
+						<div className="w-[4rem] h-[4rem] flex items-center justify-center text-white bg-neutral-500/10 border-2 border-neutral-500 text-[2rem] rounded-md"></div>
+						<div className="w-[4rem] h-[4rem] flex items-center justify-center text-white bg-neutral-500/10 border-2 border-neutral-500 text-[2rem] rounded-md"></div>
+						<div className="w-[4rem] h-[4rem] flex items-center justify-center text-white bg-neutral-500/10 border-2 border-neutral-500 text-[2rem] rounded-md"></div>
+						<div className="w-[4rem] h-[4rem] flex items-center justify-center text-white bg-neutral-500/10 border-2 border-neutral-500 text-[2rem] rounded-md"></div>
+						<div className="w-[4rem] h-[4rem] flex items-center justify-center text-white bg-neutral-500/10 border-2 border-neutral-500 text-[2rem] rounded-md"></div>
 					</div>
 				</div>
 				{/* Text Field */}
@@ -141,7 +141,7 @@ const Wordle = () => {
 					{alphabet.map((letter, i) => (
 						<div
 							key={i}
-							className={`w-[3.5rem] h-[3.5rem] flex  items-center justify-center text-[1.75rem] rounded-md
+							className={`w-[3.5rem] h-[3.5rem] flex  items-center justify-center text-[1.75rem] rounded-md text-white
 							${
 								correct_letters.includes(letter)
 									? "bg-green-600"
